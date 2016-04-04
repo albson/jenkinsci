@@ -9,9 +9,9 @@ SAUCE_USERNAME = os.environ.get('SAUCE_USERNAME')
 SAUCE_ACCESS_KEY = os.environ.get('SAUCE_ACCESS_KEY')
 
 desired_cap = {
-    'platform': "Windows 7",
-    'browserName': "chrome",
-    'version': "44.0",
+    'platform': os.environ.get('SELENIUM_PLATFORM'),
+    'browserName': os.environ.get('SELENIUM_BROWSER'),
+    'version': os.environ.get('SELENIUM_VERSION'),
     'name': "Jenkins Sample Test"
 }
 
