@@ -20,7 +20,5 @@ driver = webdriver.Remote(command_executor = ('http://' + SAUCE_USERNAME + ':' +
 driver.get('https://www.google.com/')
 driver.current_url
 driver.page_source
-driver.find_element_by_name('q').send_keys("Pizza")
-driver.find_element_by_name('btnK').click()
 time.sleep(5)
 driver.quit()
