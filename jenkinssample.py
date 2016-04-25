@@ -3,6 +3,7 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 import os
 import time
+import json
  
 
 SAUCE_USERNAME = os.environ.get('SAUCE_USERNAME')
