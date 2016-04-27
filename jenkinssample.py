@@ -16,6 +16,8 @@ desired_cap = {
     'name': "Jenkins Sample Test"
 }
 
+print desired_cap
+
 driver = webdriver.Remote(command_executor = ('http://' + SAUCE_USERNAME + ':' + SAUCE_ACCESS_KEY + '@ondemand.saucelabs.com:80/wd/hub'), desired_capabilities = desired_cap)
 
 driver.get('https://www.google.com/')
