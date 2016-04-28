@@ -13,7 +13,7 @@ desired_cap = {
     'platform': os.environ.get('SELENIUM_PLATFORM'),
     'browserName': os.environ.get('SELENIUM_BROWSER'),
     'version': os.environ.get('SELENIUM_VERSION'),
-    'name': "Jenkins Sample Test"
+    'deviceName': os.environ.get('SELENIUM_DEVICE')
 }
 
 print desired_cap
