@@ -12,7 +12,7 @@ SAUCE_ACCESS_KEY = os.environ.get('SAUCE_ACCESS_KEY')
 desired_cap = {
     'platformName': os.environ.get('SELENIUM_PLATFORM'),
     'browserName': os.environ.get('SELENIUM_BROWSER'),
-    'version': os.environ.get('SELENIUM_VERSION'),
+    'platformVersion': os.environ.get('SELENIUM_VERSION'),
     'deviceName': os.environ.get('SELENIUM_DEVICE'),
     'appiumVersion': "1.5.2"
 }
