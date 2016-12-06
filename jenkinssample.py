@@ -14,7 +14,8 @@ desired_cap = {
     'browserName': os.environ.get('SELENIUM_BROWSER'),
     'version': os.environ.get('SELENIUM_VERSION'),
     'name': "Jenkins Sample Test",
-    'tunnelIdentifier': os.environ.get('TUNNEL_IDENTIFIER')
+#     'tunnelIdentifier': os.environ.get('TUNNEL_IDENTIFIER')
+    'tunnelIdentifier': 'tunnel1'
 }
 
 print desired_cap
