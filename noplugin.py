@@ -11,7 +11,7 @@ SAUCE_ACCESS_KEY = os.environ.get('SAUCE_ACCESS_KEY')
 desired_cap = {
     'platform': "Windows 7",
     'browserName': "chrome",
-    'browserVersion': "44"
+    'version': "65"
 }
 
 
